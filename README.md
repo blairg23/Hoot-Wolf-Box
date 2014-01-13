@@ -5,4 +5,4 @@ Hoot is a scheduling software that drives Linux-based hardware for broadcasting/
 
 The main application is written using C++, Java, and XML, but the graphical user interface is written in C#.
 
-To learn more about the functionality of the application, read the Hootd User Manual, located in Docs > UserManual. 
+To learn more about the functionality of the application, read the Hoot User Manual, located in Docs > UserManual. 
