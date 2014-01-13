@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/primary/!svn/ver/69/Source/Java/Hootd/src/hootd
+END
+Logger.java
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/primary/!svn/ver/57/Source/Java/Hootd/src/hootd/Logger.java
+END
+ScheduleReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/primary/!svn/ver/69/Source/Java/Hootd/src/hootd/ScheduleReader.java
+END
+Sleeper.java
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/primary/!svn/ver/52/Source/Java/Hootd/src/hootd/Sleeper.java
+END
+RecordEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/primary/!svn/ver/69/Source/Java/Hootd/src/hootd/RecordEvent.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/primary/!svn/ver/57/Source/Java/Hootd/src/hootd/Event.java
+END
+ZipTools.java
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/primary/!svn/ver/57/Source/Java/Hootd/src/hootd/ZipTools.java
+END
+PlayEvent.java
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/primary/!svn/ver/69/Source/Java/Hootd/src/hootd/PlayEvent.java
+END
+Hootd.java
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/primary/!svn/ver/57/Source/Java/Hootd/src/hootd/Hootd.java
+END

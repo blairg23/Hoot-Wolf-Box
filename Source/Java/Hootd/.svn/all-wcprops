@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/primary/!svn/ver/69/Source/Java/Hootd
+END
+log.txt
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/69/Source/Java/Hootd/log.txt
+END
+manifest.mf
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/primary/!svn/ver/43/Source/Java/Hootd/manifest.mf
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/primary/!svn/ver/69/Source/Java/Hootd/build.xml
+END
+build-before-profiler.xml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/primary/!svn/ver/69/Source/Java/Hootd/build-before-profiler.xml
+END

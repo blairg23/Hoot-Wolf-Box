@@ -1,0 +1,22 @@
+#ifndef LOGGER_H
+#define LOGGER_H
+
+#include <iostream>
+#include <fstream>
+#include <stdio.h>
+#include <string>
+using namespace std;
+
+
+class Logger 
+{
+    private:
+	ofstream logFile;
+
+    public:
+	Logger();
+	~Logger();
+	bool write_log(string level, string message);
+};
+
+#endif

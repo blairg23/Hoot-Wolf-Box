@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/primary/!svn/ver/127/Source/AudioLib
+END
+formats.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/84/Source/AudioLib/formats.h
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/primary/!svn/ver/84/Source/AudioLib/main.cpp
+END
+audiolib.c
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/primary/!svn/ver/127/Source/AudioLib/audiolib.c
+END
+gettext.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/84/Source/AudioLib/gettext.h
+END
+version.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/84/Source/AudioLib/version.h
+END
+aconfig.h
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/84/Source/AudioLib/aconfig.h
+END
+Makefile
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/primary/!svn/ver/127/Source/AudioLib/Makefile
+END
+audiolib.h
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/primary/!svn/ver/84/Source/AudioLib/audiolib.h
+END

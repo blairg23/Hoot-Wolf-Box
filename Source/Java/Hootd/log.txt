@@ -1,0 +1,333 @@
+
+---Wed Feb 17 11:57:32 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 11:57:32 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 11:57:32 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 11:57:32 MST 2010---
+Unzip complete
+
+---Wed Feb 17 11:57:32 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 11:57:32 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:04:52 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:04:52 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:04:52 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:04:52 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:04:52 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:04:52 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:05:42 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:05:42 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:05:42 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:05:43 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:05:43 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:05:43 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:18:22 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:18:22 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:18:22 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:18:22 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:18:22 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:18:22 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:20:45 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:20:45 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:20:45 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:20:45 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:20:45 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:20:45 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:21:21 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:21:21 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:21:21 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:21:21 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:21:21 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:21:21 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:24:52 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:24:52 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:24:52 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:24:52 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:24:52 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:24:52 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:25:32 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:25:32 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:25:32 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:25:32 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:25:32 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:25:32 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:31:38 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:31:38 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:31:38 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:31:38 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:31:38 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:31:38 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:41:08 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:41:08 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:41:08 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:41:09 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:41:09 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:41:09 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 12:56:29 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 12:56:29 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 12:56:29 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 12:56:29 MST 2010---
+Unzip complete
+
+---Wed Feb 17 12:56:29 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 12:56:29 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:14:07 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:14:07 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:14:07 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:14:07 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:14:07 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:14:07 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:24:00 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:24:00 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:24:00 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:24:00 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:24:00 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:24:00 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:27:06 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:27:06 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:27:06 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:27:06 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:27:06 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:27:06 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:36:59 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:36:59 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:36:59 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:37:00 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:37:00 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:37:00 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:37:17 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:37:17 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:37:17 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:37:17 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:37:17 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:37:17 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:40:48 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:40:48 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:40:48 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:47:25 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:47:25 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:47:25 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:47:26 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:47:26 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:47:26 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended
+
+---Wed Feb 17 13:48:20 MST 2010---
+No schedule file name specified. Using schedule.zip
+
+---Wed Feb 17 13:48:20 MST 2010---
+Hootd starting up
+
+---Wed Feb 17 13:48:20 MST 2010---
+Unzipping files...
+
+---Wed Feb 17 13:48:20 MST 2010---
+Unzip complete
+
+---Wed Feb 17 13:48:21 MST 2010---
+C:\Users\js161786\Documents\NetBeansProjects\Hootd\schedule.xml (The system cannot find the file specified)
+
+---Wed Feb 17 13:48:21 MST 2010---
+No upcoming events scheduled. Deep sleep (hibernation) recommended

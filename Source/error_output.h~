@@ -1,0 +1,10 @@
+#ifndef ERROR_OUTPUT_H
+#define ERROR_OUTPUT_H
+
+#include <iostream>
+#include <stdio.h>
+#include <string>
+
+void outputError(string message, string audioFile);
+
+#endif

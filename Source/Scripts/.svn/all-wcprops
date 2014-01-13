@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/primary/!svn/ver/103/Source/Scripts
+END
+success.wav
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/primary/!svn/ver/103/Source/Scripts/success.wav
+END
+UsbTransfer.sh
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/primary/!svn/ver/103/Source/Scripts/UsbTransfer.sh
+END
+fail.wav
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/primary/!svn/ver/103/Source/Scripts/fail.wav
+END
+SetWakeAlarm.sh
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/primary/!svn/ver/103/Source/Scripts/SetWakeAlarm.sh
+END

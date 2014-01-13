@@ -1,0 +1,245 @@
+/* 
+
+Adapted From
+http://www.zlib.net/zlib_how.html - zpipe.c
+
+ */
+#include <iostream>
+#include <fstream>
+
+#include <string>
+#include <cstring>
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+#include <assert.h>
+#include <zlib.h>
+#include "constants.h"
+#include <libtar.h> //apt-get libtar-dev
+#include <zip.h> //apt-get libzip-dev
+
+#ifdef _WIN32
+# include <io.h>
+# include <fcntl.h>
+# define SET_BINARY_MODE(handle) setmode(handle, O_BINARY)
+#else
+# define SET_BINARY_MODE(handle) ((void)0)
+#endif
+
+
+
+using namespace std;
+
+class Zip_File
+{
+	bool DEBUG_UNZIP;
+	public:
+
+		Zip_File()
+		{
+			DEBUG_UNZIP = true;
+		}
+
+<<<<<<< .mine
+		int uncompress_schedule(string compressed_filepath, string uncompress_rootdir)	
+		{
+			return uncompress_schedule(compressed_filepath.c_str(), uncompress_rootdir.c_str());
+		}
+
+=======
+
+>>>>>>> .r84
+		int uncompress_schedule(const char * compressed_filepath, const char * uncompress_rootdir)
+		{
+
+			//char *temp_tar;
+			
+			//strcpy(temp_tar, uncompress_rootdir);
+			//strcat(temp_tar, "/temp.tar");
+
+			printf("%s: Entering decompress_zip\n", __PRETTY_FUNCTION__);
+
+			decompress_zip(compressed_filepath, uncompress_rootdir);
+
+
+			//Step 1: Decompress the TAR (.tar.gz -> .tar). Make certain the directory exists.
+			//decompress_tar_file(compressed_filepath, temp_tar);
+
+			//Step 2: Untar the file
+			//extract_tar(temp_tar, uncompress_rootdir);
+
+			//Step 3: delete the .tar remaining.
+		}
+	private: 
+		int decompress_zip(const char * zip_path, const char * uncompress_rootdir)
+		{
+			string temp_path;
+			string string_zip_path = zip_path;
+			string string_uncompress_rootdir = uncompress_rootdir;
+			struct zip *archive  = NULL;
+			struct zip_file *singleFile  = NULL;
+			int err;
+			string zip_file_error;
+			int counter = 0;
+			int bytesRead;
+			int totalBytesRead;
+
+			string filename;
+			
+			ofstream fileToWrite;
+
+
+			//Init buffer for transfering data from zipped file to uncompressed file.
+			const int BUFFER_SIZE = 8192;
+			//void *buffer = malloc(sizeof(char*)*BUFFER_SIZE);
+			char *buffer = new char[BUFFER_SIZE];
+			//char buffer[BUFFER_SIZE];
+
+			if(!buffer) cout << __PRETTY_FUNCTION__ << ": ERROR: buffer could not be initialized!" << endl;
+			
+			if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Buffer initialized to size: " << (sizeof(char)*BUFFER_SIZE) << endl;
+ 
+			if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Opening zip archive '" << zip_path << "'" <<endl;
+			
+			//Open zip archive.
+			archive = zip_open(zip_path, ZIP_CHECKCONS, &err);
+			
+			if(archive == NULL) //zip archive not found.
+			{
+				if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Archive not found. libzip errorno(" << err << ")" << endl;
+
+				return -1;
+			}
+			
+
+			//ZIP_FL_COMPRESSED
+			if(DEBUG_UNZIP) cout <<  __PRETTY_FUNCTION__ << ": found " << zip_get_num_files(archive) << " files in archive '" << zip_path << "'" << endl;
+
+			//Open zipped file under the file index 'counter'			
+			while((singleFile = zip_fopen_index(archive, counter, 0)) != NULL)
+			{			
+				totalBytesRead = 0;
+				bytesRead = 0;
+			
+				//Get name of the zipped file
+				filename = zip_get_name(archive, counter, 0); 
+
+				//Create proper path for zipped file
+				temp_path = string_uncompress_rootdir + "/" + filename;
+
+				if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Opening '" << temp_path << "'" << endl;
+
+				//Open a file stream to an out file.
+				//|ios::trunc
+				fileToWrite.open(temp_path.c_str(), ios::binary);
+
+				//Read data from zipped file into a buffer
+				while((bytesRead = zip_fread(singleFile, buffer, sizeof(BUFFER_SIZE))) > 0 && fileToWrite.is_open())
+				{
+					if(buffer == NULL)
+					{
+						cout << "ERROR WHILE READING FILE: Buffer was not populated" << endl;
+						return -1;
+					}
+
+					totalBytesRead += bytesRead;
+					
+
+					zip_file_error = zip_file_strerror(singleFile);
+					if(zip_file_error != "No error")
+					{
+						cout << "ERROR WHILE READING FILE: " << zip_file_error << endl;
+						return -1;
+					}
+					//if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Zip File Buffer: " << buffer << endl;
+
+					//Write data from buffer to uncompressed file
+					fileToWrite.write(buffer, bytesRead);
+
+					bytesRead = 0;	
+					//break;
+					
+				}
+				if(DEBUG_UNZIP) cout << "\tRead " << totalBytesRead << " bytes from file." << endl;
+				if(DEBUG_UNZIP) cout << __PRETTY_FUNCTION__ << ": Closing File '" << temp_path << "'" <<endl;
+
+				//Close outfile stream
+				//fclose(fileToWrite);
+				fileToWrite.close();
+
+				//Close zip file
+				zip_fclose(singleFile);
+				counter++;
+			}
+
+			//Delete buffer
+			delete[] buffer;
+			//free(buffer);
+			
+			//close archive
+			zip_close(archive);
+			return (counter + 1);
+		}
+
+		int decompress_tar_file(const char *infilename, const char *outfilename)
+		{
+			gzFile infile = gzopen(infilename, "r");
+			FILE *outfile = fopen(outfilename, "w");
+			if (!infile || !outfile) return -1;
+
+			char buffer[128];
+			int num_read = 0;
+			while ((num_read = gzread(infile, buffer, sizeof(buffer))) > 0) 
+			{
+				fwrite(buffer, 1, num_read, outfile);
+			}
+			gzclose(infile);
+			fclose(outfile);
+		}
+
+		/*
+		int extract_tar(const char *tarfile, const char *rootdir)
+		{
+			TAR *t;
+
+			if (tar_open(&t, tarfile, (use_zlib ? &gztype : NULL), O_RDONLY, 0, (verbose ? TAR_VERBOSE : 0)| (use_gnu ? TAR_GNU : 0)) == -1)
+			{
+				fprintf(stderr, "tar_open(): %s\n", strerror(errno));
+				return -1;
+			}
+
+			if (tar_extract_all(t, rootdir) != 0)
+			{
+				fprintf(stderr, "tar_extract_all(): %s\n", strerror(errno));
+				return -1;
+			}
+
+			if (tar_close(t) != 0)
+			{
+				fprintf(stderr, "tar_close(): %s\n", strerror(errno));
+				return -1;
+			}
+
+			return 0;
+		}*/
+};
+
+
+
+int main()
+{
+	Zip_File zf;
+
+<<<<<<< .mine
+	zf.uncompress_schedule("schedule_3.zip", ".");
+=======
+	//zf.uncompress_schedule("schedule_2.zip", ".");
+>>>>>>> .r84
+
+	system("./unzip Source.zip -d ./testdir");
+
+    return 0;
+}
+

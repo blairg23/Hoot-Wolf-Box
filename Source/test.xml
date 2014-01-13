@@ -1,0 +1,20 @@
+<EventsList>
+<ScheduledEvent>
+  <StartPlay>2011-02-13 18:52:00</StartPlay> 
+  <AudioFile>chimes.wav</AudioFile> 
+  <AudioFileFullPath>C:\Windows\Media\chimes.wav</AudioFileFullPath> 
+  <PlayDuration /> 
+  <StartRecord>2011-02-13 18:52:20</StartRecord> 
+  <RecordDuration>45</RecordDuration> 
+  <GUID>67e0f3f8-4d27-47d8-b026-115f06a98251</GUID> 
+  </ScheduledEvent>
+<ScheduledEvent>
+  <StartPlay>2010-02-16 19:52:21</StartPlay> 
+  <AudioFile>chimes.wav</AudioFile> 
+  <AudioFileFullPath>C:\Windows\Media\chimes.wav</AudioFileFullPath> 
+  <PlayDuration /> 
+  <StartRecord>2010-02-16 21:52:20</StartRecord> 
+  <RecordDuration>45</RecordDuration> 
+  <GUID>ff903b86-bf83-4d2b-8503-2093188eb0bc</GUID> 
+  </ScheduledEvent>
+  </EventsList>
