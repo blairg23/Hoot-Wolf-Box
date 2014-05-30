@@ -1,0 +1,37 @@
+Testers: Can't get microphone to pick up sound, can't get software to compile on box
+Software: Need to create executables
+Hardware: Scripts configure everything but grub
+Requirements: Can only play .WAV audio files (need to manually convert .WAV files out of .MP3s)
+Future: Need linux-compatible motion detectors
+
+Status at this point:
+
+	Need software on box to test
+		- Put software on box through shell
+		- Test software
+
+Status by Thursday:
+
+- Have an install on the box (thumb drive installation)
+- Test boxes
+
+Status by next week:
+
+- Complete configuration of all boxes
+- Test all boxes
+
+
+Status by May 6th:
+- 4 configured working boxes
+
+
+Presentation:
+
+- OVerview of project
+- Initital requirements
+- Screenshot of schedulers
+- Step-by-process of how to work hardware/software (prototype)
+- Sound files of wolf howls
+- Conclusion of where we are in project
+- Future of the project?
+	- Talk to Chase

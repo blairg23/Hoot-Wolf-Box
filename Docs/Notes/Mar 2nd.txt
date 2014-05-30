@@ -1,0 +1,49 @@
+- Budget for user manual
+- Went over user manual outline (req and design)
+
+-Joel spoke with Joe Fangui
+	- Wants working product for Dave Ausband
+	- If we could do this from scratch:
+		- What hardware would we need
+		- How to do this with current team
+			- Jesse Skrivseth will attempt this
+	- Give him tech spec and price
+	- Simple arm processors or android mobile device/embedded devices
+- Went over testing cases and defects
+	- Found a few minor errors in the GUI:
+		- If you hit Repeat without hitting Copy, causes error
+		- 
+
+- Went over the internal system:
+	- XML Parser problems
+		- Gene Stipe put on Subversion for troubleshooting
+
+	- Finished:
+		- Logger
+		- Play/Record
+		- Structure for main file
+			- Need to define interfaces
+			- Need comfirmation on design
+
+- Went over basic structure for main file driver
+	- http://wiki.cs442.info/index.php?title=Main_Driver_Program
+
+- Requirements:
+	- Where archive files are found
+
+- Went over scripts
+	- Where to put root folder location when installing program
+		- Opt folder is a good spot, maybe
+		- Thomas Osborne will email us when he finds a good spot to put root folder
+		- Need everyone to know where the folder location is
+	- Keep schedule folder and sound folder in separate areas
+
+- Hardware:
+	- Working on USB mounting/unmounting
+
+- GUI:
+	- Prevent play/record overlap
+
+- Schedule:
+	- Software on schedule/ahead of schedule
+	- Hardware issues taking time

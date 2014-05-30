@@ -1,0 +1,36 @@
+Start putting together user manual
+
+
+Start putting together steps for Dave
+	- Email steps out to make sure we haven't missed anything
+
+	1. Open Scheduler
+	2. Create category (categories)
+	3. Add audio file(s)
+	4. Create event
+		a. play and record
+		b. just play
+		c. just record
+	6. optional: copy/repeat similar events to other dates
+	7. save schedule
+	8. export schedule to USB
+		a. 
+	9. attach peripherals
+	10. attach usb to box
+	11. turn on box
+	12. upload schedule from USB to box.
+		a. wait for success/failure audio file sound
+	13. enjoy
+
+Grab hardware specs/safety notices off wiki:
+
+Hardware Spec
+System: ARTiGO Pico-ITX CPU: Via C7 1 GHz Ram: 1 GB DDR2 533 SODIMM HD: 80 GB 2.5 inch HD Internal Audio: VT1708 Via High Definition Audio 1 line in / 1 line out Display: Via Unichrome ProII graphics adapter with 1 VGA port Network: 10/100 ethernet USB: 4 USB 2.0 ports PS: 60 watts The unit has a 110V - 12VDC power adapter
+The operating system is currently Ubuntu 9.10.
+The unit is using two Tekkeon MP3450 LiIon batteries to provide 12VDC with 7.0A. The batterie can be charged using the ARTiGO power adapter. The batteries have an internal charge controller and lockouts prevent over charging. The battery is designed to control voltage output to maintain proper output voltage over the batteries usage.
+
+The unit currently uses a 5 watt USB Yamaha speaker. There are two microphones for the unit, but I've only identified the manufacturer of one as Sennheiser.
+Safety: The cases are flame resistant, but the battery should not be exposed to high temperatures or flame. The batteres should be checked regularly for damage to the casing, bulging, or excessive heat while operating. They should not be submerged or exposed to water. The power cables should be examined on the batteries and all components to check for breaks or wear on the cables insulation. If there is any damage to the insulation, do not use the cable. Do not attempt to repair the battery or any cabling. The ARTiGO unit and Tekeon batteries can produce a high enough shock to kill and all safety precautions should be followed to prevent death. The ARTiGO case will provide protection from electric discharge caused by static electricity, but all components are static sensitive so precautions should be taken if the case is removed.
+
+
+	- Rewrite?

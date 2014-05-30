@@ -1,0 +1,16 @@
+What do you do when you bring laptop out there?
+	-Details on pushing/pulling data
+	-What do you like/dislike?
+Explain constraints
+	-Shutdown for mic/speaker
+	-Do you like that?
+	-Will that be a problem?
+Won't be able to make anything but minor changes
+	-If you see anything major that needs changed, speak now
+
+Show UI to user
+
+Requirements:
+
+	-Do all audio files have similar audio volume?
+		-Need all audio files normalized before they are put on the box.

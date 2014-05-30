@@ -1,0 +1,49 @@
+Box wake-up time
+	-2 min
+Status Updates
+	-Testers
+	-Req
+	-Hardware
+	-Software
+Drew Diagram to figure out missing pieces:
+Have (in order):
+-Scheduler UI
+-Zip folder
+	-Contains XML and Sound files
+-Zip is in USB key
+-When plugged in, runs script (Thomas)
+	-Box on
+	-Check USB
+		-If in: Get schedule/unzip
+		-Signal
+	-StartScheduler
+-Internal Scheduler Application running as a daemon
+	-Decompression (Dayton)
+	-XML Parser(Gene)
+		-Parse to discover next even
+		-Set event object
+			-Current
+			-Next
+		-If start time < 5 mins,
+			-Delay until start time of current event
+			-"Do" Event (play/record)
+		-Else
+			-Set wake event
+			-Sleep
+
+
+-Talked about killing daemon process
+	-Pros/cons
+-Final Decision:
+	-Check interval
+		-If high interval,
+			-Power down
+		-If low interval,
+			-suspend to RAM
+-New REQ:
+	-If light is on, box is on
+		-If on, wait til it powers down first
+	-If light is off, box is off
+		-Once light is off, safe to plug in USB key, then power back on
+		-Once signal goes off, remove USB key
+	WARNING: DO NOT LEAVE USB KEY IN AFTER SIGNAL!

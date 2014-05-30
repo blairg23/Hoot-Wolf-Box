@@ -1,0 +1,7 @@
+Testers: Found some errors. Need to test the latest release before break. Should be finished before break or 1-2 days over the weekend.
+Developers: Integration complete, functionality in place, needs testing now. There was no deviation from the original design.
+Hardware: Almost done with USB mounting scripts, init_d is correct.
+
+Current Issues: Having issue with daylight savings time and Unix.
+Possible Solution: Use GMT.
+

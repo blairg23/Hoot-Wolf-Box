@@ -1,0 +1,11 @@
+Hardware: Uploading USB scripts tonight, need to grab other 2 boxes to upload software, 1 box has drive failure
+Testing: 1 box in testing, testing play/record, usb script once uploaded
+Requirements: Need to get hard drive replacement from customer. 80gb 2.5 inch ide interface
+
+Summary of where we are on the boxes:
+- need new drive for one
+- test until stable
+- configure other 3
+- install for scheduler
+- documentation
+	- user manual

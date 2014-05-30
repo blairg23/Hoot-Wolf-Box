@@ -1,0 +1,31 @@
+Status:
+
+Can install/uninstall, starts up with USB inserted, needs mic/speakers to startup
+
+If you remove USB peripherals while running, it will error out. If it errors out, user needs to shut down box, reinsert peripherals, then restart box.
+
+To deactivate hoot command line interface, so you can get to GUI:
+
+	- Create a blank text file named "nostart" in main directory of USB key
+
+Overview - Blair/Corri
+Hardware - Thomas
+Scheduler - Jesse
+Software Design - Dayton
+Testing - Guangmei
+Future - Chase
+Prototype - Jesse
+Questions?
+
+Moderator - Joel
+
+List of stuff to bring:
+
+netbook
+USB w/ config / audio files
+powerpoint
+
+who has sent me slides:
+Chase
+Dayton
+Jesse

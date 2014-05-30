@@ -1,0 +1,6 @@
+Testers: Everything working, except box doesn't turn on automatically with USB scripts
+	Need to test:
+	- < 10 minutes between events
+	- > 10 minutes between events
+Hardware: Has working USB scripts, code was commented out accidentally, trouble with installation script
+Software: Uninstall script location, keeping it in same directory as installation script

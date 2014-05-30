@@ -1,0 +1,23 @@
+Gene: Parsing - Done.
+Dayton: Synching Subversion
+Still need: Power on/off script - Done
+Set Wake Alarm - Done.
+Still working on: USB script
+Testers: Need to get ahold of hardware and figure out how to test it.
+
+Joel got an email from a Yellowstone wildlife biologist who wants to add video to the box to do more research.
+	- Is this possible?
+	- Have enough USB ports
+	- Power issues?
+	- When to turn on?
+		- Motion sensor?
+	- Night Vision?
+
+Requirements: Walk through entire process with Dave to make sure we all know how to run scheduler and upload onto box and download audio from box. 
+
+1.
+
+
+Warning: Do not manually unzip Schedule.zip!
+
+

@@ -1,0 +1,27 @@
+- Went over User Manual 
+	- Have GUI Screenshots
+	- Have photographs of box
+	- Need the following:
+		- From Thomas:
+			- Hardware specifications
+			- Safety guide
+		- From Testers:
+			- Troubleshooting guide
+- Went over testing
+- Went over software
+	- Parser done
+	- Event handler done
+	- Stress tested event handler
+	- Went over main file overview
+- Went over hardware script
+	- Set wake alarm script almost done, not copying files correctly from USB mount
+		- Should be done by Thursday, March 11th
+- Dayton will put together the pieces
+	- Need to put all software pieces into Subversion
+- Once Thomas is done with box on Thursday, he will hand over to testers so we can begin initial testing
+- Need to replicate box 3 more times (4 total)
+	- Create image file of original disk and push onto other boxes since all hardware is the same
+- Need "Success" and "Failure" sound files
+- Need to get "Wolf howls" from Dave Ausband
+- Need to find out what area this product will be typically be used in
+	- Is mobile network availability an issue?

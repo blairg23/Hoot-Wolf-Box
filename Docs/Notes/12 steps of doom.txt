@@ -1,0 +1,19 @@
+	1. Open Scheduler
+	2. Create category (categories)
+	3. Add audio file(s)
+	4. Create event
+		a. play and record
+		b. just play
+		c. just record
+	6. optional: copy/repeat similar events to other dates
+	7. optional: save schedule
+	8. export schedule to USB
+		a. export schedule.zip to desktop
+		b. physically move schedule.zip to usb (root folder)
+	9. attach peripherals (make sure box is off)
+	10. attach usb to box
+	11. turn on box
+	12. wait for success/failure audio file sound (uploaded from usb automatically)
+		a. recorded audio files from box will download to USB key
+	13. remove USB key after success audio sound
+	14. enjoy

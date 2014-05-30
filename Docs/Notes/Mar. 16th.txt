@@ -1,0 +1,17 @@
+Integration:
+	- Wake up/Sleep Mode ready for testing
+
+Hardware:
+	- Scripts on box ready for testers
+	- Complete USB mount/unmount scripts
+
+Testers:
+	- Scheduler
+		- Test Event Firing from scheduler
+	- Hardware
+		- Test wake/sleep software on box
+
+Proposal:
+	- Jesse work on proposal
+		- High price point
+		- Low price point

@@ -1,0 +1,23 @@
+Testers: Tested box, having issues with wake up script, having issues with microphone record levels
+Hardware: Testing box hard drive failed, having some misc. hardware issues, usb bash scripts, bash scripts for installation directories and init_d
+
+directories:
+make:
+/opt/hoot/source
+/opt/hoot/var/recordings
+/opt/hoot/var/play
+/opt/hoot/var/xml
+/opt/hoot/var/logs
+/opt/hoot/backup
+
+init_d:
+create links to ./hoot
+run level 3
+
+Software: Fixing wake up bug, writing bash script
+
+Need from Dave:
+
+2 more boxes w/ power adapter
+any more microphones?
+new hard drive

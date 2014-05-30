@@ -1,0 +1,20 @@
+Hardware: USB Transfer working, but needs better workaround
+
+Overview:
+Met to fix installation, USB mounting, and startup issues.
+
+Presentation:
+
+- Requirements
+	- Limitations
+- Scheduler
+	- Gui
+	- Schedule.zip
+- init.d script
+- Hootd
+- Testing
+- Demo Current
+- Future
+- Relation to Schedule
+- OS
+- Hardware
